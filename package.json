@@ -1,0 +1,28 @@
+{
+  "name": "defi-lend-borrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydeepw/defi-lend-borrow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydeepw/defi-lend-borrow/issues"
+  },
+  "homepage": "https://github.com/jaydeepw/defi-lend-borrow#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^5.13.14",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.0"
+  }
+}
